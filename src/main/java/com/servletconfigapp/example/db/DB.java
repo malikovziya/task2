@@ -11,7 +11,7 @@ public class DB {
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/newDatabase", "root", "Ziya02122004.");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/newDatabase", "root", "password");
 
         }
         return con;
